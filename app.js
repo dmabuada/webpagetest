@@ -24,213 +24,28 @@ console.log(
  */
 
 var testPages = [
-
-  // NYM: URLs from Nick.
-  {
-    'brand': 'NY Mag',
-    'type': 'homepage',
-    'url': 'http://nymag.com'
-  },
-  {
-    'brand': 'NY Mag',
-    'type': 'restaurant picks',
-    'url': 'http://nymag.com/srch?t=restaurant&N=265+336&No=0&Ns=nyml_sort_name%7C0'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2013/12/jp-morgan-eases-up-on-young-bankers.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2013/10/slideshow-21-glimpses-of-sandys-destruction.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2014/02/slideshow-every-westminster-dog-is-a-favorite.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2013/08/13-nyc-cycling-tips-citi-bike-tricks-gifs.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2014/03/miss-saturdays-march-madness-heres-a-gif-cap.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2009/11/8216cash_for_clunkers8217_mean.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2010/04/so_this_happened.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2011/11/ap-staff-scolded-for-tweeting-about-ows-arrests.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2012/11/exhaustive-collection-of-pundit-predictions.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2013/12/cuomo-2016-campaign.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2014/03/march-madness-memories-1964-championship.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2014/03/video-world-trade-center-skydive.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2014/01/richard-sherman-interview.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2013/10/debt-ceiling-and-the-conservative-bubble.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2014/02/i-crashed-a-wall-street-secret-society.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2013/07/questlove-trayvon-martin-and-i-aint-shit.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2013/04/grad-student-who-shook-global-austerity-movement.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2013/06/naked-man-san-francisco-bart-subway-video.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2013/05/facts-are-in-and-paul-ryan-is-wrong.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2013/01/vine-celebrities-tyra-garcia-enrique-dyke-epps.html'
-  },
-  {
-    'brand': 'Daily Intel',
-    'type': 'article',
-    'url': 'http://nymag.com/daily/intelligencer/2014/02/best-worst-reactions-to-michael-sam-coming-out.html'
-  },
-  
-  // Vulture: Confirmed with Eve
-  // For Vulture: homepage and articles. Article types: TV Recaps, Slideshows, and everything else.
-  {
-    'brand': 'Vulture',
-    'type': 'homepage',
-    'url': 'http://www.vulture.com/'
-  },
-  {
-    'brand': 'Vulture',
-    'type': 'article',
-    'url': 'http://www.vulture.com/2013/12/saltz-how-not-wait-in-line-for-yayoi-kusama.html'
-  },
-  {
-    'brand': 'Vulture',
-    'type': 'slideshow',
-    'url': 'http://www.vulture.com/2013/12/bests-and-worsts-from-the-year-in-entertainment.html#photo=1x00002'
-  },
-  {
-    'brand': 'Vulture',
-    'type': 'article: tv recap',
-    'url': 'http://www.vulture.com/2013/12/saturday-night-live-recap-jimmy-fallon.html'
-  },
-
-  // The Cut: Check with product manager for more URLs
-  {
-    'brand': 'The Cut',
-    'type': 'homepage',
-    'url': 'http://nymag.com/thecut/'
-  },
-  {
-    'brand': 'The Cut',
-    'type': 'article',
-    'url': 'http://nymag.com/thecut/2013/12/real-reason-20-something-women-are-worried.html'
-  },
-  {
-    'brand': 'The Cut',
-    'type': 'slideshow',
-    'url': 'http://nymag.com/thecut/2012/08/kate-middleton-look-book/slideshow/2012/07/30/kate_middleton_lookbook/'
-  },
-
-  // Grub Street: Confirmed with Justin
-  {
-    'brand': 'Grub Street',
-    'type': 'homepage',
-    'url': 'http://www.grubstreet.com/'
-  },
-  {
-    'brand': 'Grub Street',
-    'type': 'article',
-    'url': 'http://www.grubstreet.com/2013/12/whole-foods-bryant-park.html'
-  },
-
-  // Bedford + Bowery
-  {
-    'brand': 'Bedford + Bowery',
-    'type': 'homepage',
-    'url': 'http://bedfordandbowery.com/'
-  },
-  {
-    'brand': 'Bedford + Bowery',
-    'type': 'article',
-    'url': 'http://bedfordandbowery.com/2014/01/joe-galarraga-of-big-ups-is-ok-with-you-making-fun-of-his-musings-about-millennials/'
-  },
-
   // Science of Us
   {
     'brand': 'Science of Us',
     'type': 'homepage',
     'url': 'http://nymag.com/scienceofus/'
-  },
-  {
-    'brand': 'Science of Us',
-    'type': 'article',
-    'url': 'http://nymag.com/scienceofus/2014/05/non-diet-diet.html'
   }
 
 ];
 
-// Convert date string to iso date. Current format is like Date.toString(): "Thu, 02 Jan 2014 14:25:27 +0000"
-var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-function convertToIso(dateString) {
-  var newDate = new Date(dateString.substr(12,4),months.indexOf(dateString.substr(8,3)),dateString.substr(5,2),(parseInt(dateString.substr(17,2))-5),dateString.substr(20,2),dateString.substr(23,2));
+/**
+ * @param {number} unixTimestamp
+ * @return {string} iso date
+ */
+function convertToIso(unixTimestamp) {
+  var newDate = new Date(unixTimestamp * 1000);
   var isoDate = newDate.toISOString();
   return isoDate;
 }
 
-mongoClient.connect('mongodb://localhost:55555/webpagetest', {}, function(err,db) {
-
+mongoClient.connect('mongodb://localhost:27017/test', {}, function(err,db) {
   if (err) throw err;
+  console.log('Connected to mongoDB!');
 
   var progress = {
     'totalPages': testPages.length,
@@ -271,11 +86,12 @@ mongoClient.connect('mongodb://localhost:55555/webpagetest', {}, function(err,db
         }
         function checkForResults() {
           wpt.getTestResults(testId, function(err, data) {
+            console.log('whats our data', data);
             if (err) {
               progress.moveOn(err);
             } else {
-              var minutesToWait = 5;
-              switch (Math.floor(data.response.statusCode/100)) {
+              var minutesToWait = 1;
+              switch (Math.floor(data.statusCode/100)) {
                 case 1:
                   console.log('In progress: ' + testPage.url + '. Trying again in ' + minutesToWait + ' minutes.');
                   totalWaitMinutes += minutesToWait;
@@ -289,8 +105,9 @@ mongoClient.connect('mongodb://localhost:55555/webpagetest', {}, function(err,db
                   console.log('Success: results received: ' + testPage.url);
                   // add page information to results object
                   data.page = testPage;
+                  console.log('case 2', data);
                   // convert to iso date
-                  data.response.data.completed = convertToIso(data.response.data.completed);
+                  data.data.completed = convertToIso(data.data.completed);
                   db.collection('results').insert(data, function(err, inserted) {
                     if (err) console.log(err.message);
                     console.dir('Success: saved to database: ' + testPage.url);
@@ -298,7 +115,7 @@ mongoClient.connect('mongodb://localhost:55555/webpagetest', {}, function(err,db
                   });
                   break;
                 default:
-                  progress.moveOn('Error: ' + data.response.statusCode + ' ' + data.response.statusText);
+                  progress.moveOn('Error: ' + data.statusCode + ' ' + data.statusText);
                   break;
               }
             }
